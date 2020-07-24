@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="25dp"
+    android:layout_marginTop="25dp"
+    android:paddingLeft="70dp">
+
+    <TextView
+        android:id="@+id/who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="Артур"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:text="Починить чайник" />
+
+    <TextView
+        android:id="@+id/deadLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата получения заказа: 24,01,2001" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дедлайн: 18,07,2015" />
+
+</LinearLayout>
